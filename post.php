@@ -1,15 +1,14 @@
 <?php
-$a = $_POST['domain'];
-$b = $_POST['title'];
-$c = $_POST['extension'];
-if ($empty($a)) {
-    $d = "https://www.google.com/search?q=$b filetype:$c"
-    header("location: $d");
+$a = $_POST['username'];
+$b = $_POST['domain'];
+if ($empty($a) or $empty($b)) {
+    
+    header("location: ../");
 
 } else {
 
-    $e = "https://www.google.com/search?q=$b filetype:$c site:$c"
-    header("location: $e");
+    $c = 'https://www.google.com/search?q=intext:"'.$a.'@'. $b '" OR intext"'.$a.'"';
+    header("location: $c");
 }
 
 >

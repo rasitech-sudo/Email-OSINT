@@ -1,7 +1,7 @@
 <?php
 $a = $_POST['username'];
 $b = $_POST['domain'];
-if ($empty($a)) {
+if (empty($a) or empty($b)) {
     
    echo '<script>window.location = "http://rasitech.herokuapp.com/"</script>';
 

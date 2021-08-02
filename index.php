@@ -19,10 +19,10 @@
             </div>
             <div id="input-area">
               <div class="f-inp">
-                <input type="text" placeholder="Username" id="username" value="gmail.com" />
+                <input type="text" placeholder="Username" id="username"/>
               </div>
               <div class="f-inp">
-                <input type="text" placeholder="Domain" id="domain" />
+                <input type="text" placeholder="Domain" id="domain"  value="gmail.com" />
               </div>
             </div>
             <div id="submit-button-cvr">

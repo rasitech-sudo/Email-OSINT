@@ -19,7 +19,7 @@
             </div>
             <div id="input-area">
               <div class="f-inp">
-                <input type="text" placeholder="Username" id="username" />
+                <input type="text" placeholder="Username" id="username" value="gmail.com" />
               </div>
               <div class="f-inp">
                 <input type="text" placeholder="Domain" id="domain" />

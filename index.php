@@ -10,7 +10,7 @@
     <!-- partial:index.partial.html -->
     <div id="cover">
       <div id="form-ui">
-        <form mthod="post" action="/post.php">
+        <form method="post" action="/post.php">
           <div id="close-form"></div>
           <div id="form-body">
             <div id="welcome-lines">

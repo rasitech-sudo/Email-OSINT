@@ -10,5 +10,3 @@ if (empty($a) or empty($b)) {
     $c = 'https://www.google.com/search?q=intext:"'.$a.'@'. $b '" OR intext"'.$a.'"';
     echo '<script>window.location = "'. $c .'"</script>';
 }
-
->

@@ -1,11 +1,14 @@
 <?php
 $a = $_POST['username'];
 $b = $_POST['domain'];
-if (empty($a) || empty($b)) {
+if (empty($a)) {
     
    echo '<script>window.location = "http://rasitech.herokuapp.com/"</script>';
     
-
+}elseif (empty($b)) {
+    
+   echo '<script>window.location = "http://rasitech.herokuapp.com/"</script>';
+    
 } else {
     $c = 'https://www.google.com/search?q=intext:"'.$a.'@'. $b .'" OR intext"'.$a.'"';
     echo '<script>window.location = "'. $c .'"</script>';
